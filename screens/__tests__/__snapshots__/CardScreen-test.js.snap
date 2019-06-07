@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 50,
+        "marginTop": 25,
+      }
+    }
+  >
+    <RCTPicker
+      items={
+        Array [
+          Object {
+            "label": "Berita Teratas",
+            "textColor": undefined,
+            "value": "",
+          },
+          Object {
+            "label": "Bisnis",
+            "textColor": undefined,
+            "value": "business",
+          },
+          Object {
+            "label": "Hiburan",
+            "textColor": undefined,
+            "value": "entertainment",
+          },
+          Object {
+            "label": "Kesehatan",
+            "textColor": undefined,
+            "value": "health",
+          },
+          Object {
+            "label": "Sains",
+            "textColor": undefined,
+            "value": "science",
+          },
+          Object {
+            "label": "Olah Raga",
+            "textColor": undefined,
+            "value": "sports",
+          },
+          Object {
+            "label": "Teknologi",
+            "textColor": undefined,
+            "value": "technology",
+          },
+        ]
+      }
+      onChange={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      selectedIndex={0}
+      style={
+        Array [
+          Object {
+            "height": 216,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "lightgrey",
+        "height": 1,
+      }
+    }
+  />
+</View>
+`;
